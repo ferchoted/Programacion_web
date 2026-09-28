@@ -1,0 +1,327 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+
+    background-color: white;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header{
+
+    height: 90px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 8%;
+
+    background-color: white;
+
+    border-top: 8px solid #7ea4c7;
+}
+
+
+.logo{
+
+    font-size: 28px;
+
+    color: #6c625c;
+}
+
+
+nav{
+
+    display: flex;
+
+    gap: 30px;
+}
+
+
+nav a{
+
+    text-decoration: none;
+
+    color: #9db7cd;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+
+    min-height: 350px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 50px 10%;
+
+    background-color: #eaf3fa;
+}
+
+
+.hero-texto{
+
+    max-width: 550px;
+}
+
+
+.hero h1{
+
+    color: #6483a0;
+
+    margin-bottom: 25px;
+}
+
+
+.hero p{
+
+    color: #7e8b95;
+
+    line-height: 1.5;
+
+    margin-bottom: 20px;
+}
+
+
+button{
+
+    background-color: #716057;
+
+    color: white;
+
+    border: none;
+
+    padding: 8px 20px;
+
+    cursor: pointer;
+}
+
+
+/* =========================
+   TARJETAS
+========================= */
+
+.tarjetas{
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.tarjeta{
+
+    min-height: 180px;
+
+    padding: 20px;
+
+    background-color: #a8c6e1;
+
+    border-right: 2px solid white;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+
+.tarjeta:nth-child(even){
+
+    background-color: #93b6d5;
+}
+
+
+.tarjeta h3{
+
+    font-size: 12px;
+
+    color: #ffffff;
+}
+
+
+.tarjeta p{
+
+    font-size: 13px;
+
+    color: #e9f0f6;
+}
+
+
+.tarjeta span{
+
+    font-size: 32px;
+
+    color: white;
+}
+
+
+/* =========================
+   SERVICIOS B C D
+========================= */
+
+.servicio{
+
+    min-height: 260px;
+
+    display: grid;
+
+    grid-template-columns: 65% 35%;
+
+    align-items: center;
+
+    padding: 40px 10%;
+
+    background-color: #f8f4f1;
+}
+
+
+.fondo-alterno{
+
+    background-color: #f1e9e5;
+}
+
+
+.servicio-texto{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    justify-content: center;
+}
+
+
+.servicio h2{
+
+    color: #6f879f;
+
+    margin-bottom: 15px;
+}
+
+
+.servicio p{
+
+    max-width: 500px;
+
+    color: #7c7c7c;
+
+    line-height: 1.5;
+
+    margin-bottom: 20px;
+}
+
+
+.servicio-imagen{
+
+    width: 220px;
+
+    height: 160px;
+
+    justify-self: end;
+
+    background-color: #87aace;
+
+    color: white;
+
+    font-size: 70px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+
+    min-height: 180px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 30px 10%;
+
+    background-color: #8eb7d8;
+
+    color: white;
+}
+
+
+.footer-contacto{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+
+.footer-contacto h3{
+
+    font-size: 15px;
+}
+
+
+.footer-caja{
+
+    width: 200px;
+
+    height: 70px;
+
+    background-color: #aac8e1;
+}
+
+
+.footer-redes{
+
+    text-align: center;
+}
+
+
+.footer-redes p{
+
+    margin-bottom: 10px;
+}
+
+
+.footer-redes span{
+
+    font-size: 20px;
+
+    margin: 0 4px;
+}
